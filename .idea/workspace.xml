@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b80af575-ba5f-4881-802e-ed74022a58bf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/exam/templates/exam/give-a-mark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/templates/exam/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/give-a-mark/body-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/home/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/login-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/login_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/give-a-mark/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/give-a-mark/exam-base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/give-a-mark/exam_answer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/give-a-mark/expanding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineTestSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineTestSystem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineTestSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineTestSystem/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/question_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/question_add.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/tinymce.min.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="give-a-mark.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exam/templates/exam/give-a-mark.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="66" column="69" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="69" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/basic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2484">
+              <caret line="138" column="3" selection-start-line="138" selection-start-column="3" selection-end-line="138" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exam_answer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/exam_answer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exam_style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/give-a-mark/exam_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="124" column="7" selection-start-line="124" selection-end-line="124" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exam-base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/exam-base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expanding.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/expanding.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>剩余时间</find>
+      <find>ellipsis</find>
+      <find>data-id</find>
+      <find>form-control</find>
+      <find>input-group-addon</find>
+      <find>expanding</find>
+      <find>exam-question</find>
+      <find>confirmEndExamBtn</find>
+      <find>modal</find>
+      <find>input-group</find>
+      <find>keyfill</find>
+      <find>keyFillA</find>
+      <find>numberCardBtn</find>
+      <find>keyC</find>
+      <find>fill</find>
+      <find>filled</find>
+      <find>questions-title</find>
+      <find>ana</find>
+      <find>analysis</find>
+      <find>btn-danger</find>
+      <find>commitProcess</find>
+      <find>btn</find>
+      <find>btn-submit</find>
+      <find>backs</find>
+      <find>mark-group-addon</find>
+      <find>keyFillAnswer</find>
+      <find>wrapper</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\record\PycharmProjects\OnlineTestSystem\exam\templates\exam</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="PhemieTang" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/OnlineTestSystem/__init__.py" />
+        <option value="$PROJECT_DIR$/../mysql/mysql/settings.py" />
+        <option value="$PROJECT_DIR$/ckeditor_uploader/urls.py" />
+        <option value="$PROJECT_DIR$/ckeditor_uploader/views.py" />
+        <option value="$PROJECT_DIR$/static/style/make-questions.css" />
+        <option value="$PROJECT_DIR$/static/css/make-questions.css" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
+        <option value="$PROJECT_DIR$/static/js/make-questions.js" />
+        <option value="$PROJECT_DIR$/exam/admin.py" />
+        <option value="$PROJECT_DIR$/exam/models.py" />
+        <option value="$PROJECT_DIR$/static/css/wangEditor-custom.css" />
+        <option value="$PROJECT_DIR$/exam/templates/exam/make-questions.html" />
+        <option value="$PROJECT_DIR$/static/js/script2.js" />
+        <option value="$PROJECT_DIR$/static/js/admin_addQuestions.js" />
+        <option value="$PROJECT_DIR$/static/css/question_add.css" />
+        <option value="$PROJECT_DIR$/static/css/give-a-mark/style.min.css" />
+        <option value="$PROJECT_DIR$/static/css/give-a-mark/style.css" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/basic.js" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/swfobject.js" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/recorder.js" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/stickUp.min.js" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/jquery.webcam.js" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/uploadFile.js" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/expanding.js" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/screenfull.js" />
+        <option value="$PROJECT_DIR$/exam/templates/exam/h.html" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/exam-base.js" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/myjs.js" />
+        <option value="$PROJECT_DIR$/static/css/give-a-mark/base.css" />
+        <option value="$PROJECT_DIR$/exam/templates/exam/hhh.html" />
+        <option value="$PROJECT_DIR$/exam/templates/exam/register.html" />
+        <option value="$PROJECT_DIR$/exam/templates/exam/login.html" />
+        <option value="$PROJECT_DIR$/OnlineTestSystem/settings.py" />
+        <option value="$PROJECT_DIR$/OnlineTestSystem/urls.py" />
+        <option value="$PROJECT_DIR$/static/css/home/googleapis-fonts.css" />
+        <option value="$PROJECT_DIR$/exam/urls.py" />
+        <option value="$PROJECT_DIR$/exam/views.py" />
+        <option value="$PROJECT_DIR$/exam/templates/exam/edit.html" />
+        <option value="$PROJECT_DIR$/exam/templates/exam/home.html" />
+        <option value="$PROJECT_DIR$/static/css/home/login.css" />
+        <option value="$PROJECT_DIR$/static/css/give-a-mark/body-style.css" />
+        <option value="$PROJECT_DIR$/exam/templates/exam/give-a-mark.html" />
+        <option value="$PROJECT_DIR$/static/js/give-a-mark/exam_answer.js" />
+        <option value="$PROJECT_DIR$/static/css/give-a-mark/exam_style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="412" />
+    <option name="y" value="18" />
+    <option name="width" value="654" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="give-a-mark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineTestSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineTestSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="give-a-mark" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="input-group-addon&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Program Files/bower/Git/bin/git.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static\images\home" />
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static" />
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static\icon\home" />
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static\css\home" />
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static\js\home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static\css\give-a-mark" />
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static\css" />
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static" />
+      <recent name="D:\record\PycharmProjects\OnlineTestSystem\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="OnlineTestSystem" type="Python.DjangoServer" factoryName="Django server">
+      <module name="OnlineTestSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="OnlineTestSystem.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b80af575-ba5f-4881-802e-ed74022a58bf" name="Default" comment="" />
+      <created>1532682790929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532682790929</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="66" y="-8" width="1308" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4991987" weight="0.32868218" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080127" side_tool="true" weight="0.4635659" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32868218" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991987" weight="0.1767442" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3488372" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21794872" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.19069767" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991987" visible="true" weight="0.1767442" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21474358" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4991987" weight="0.32868218" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3488372" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50080127" side_tool="true" weight="0.4635659" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32868218" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.19069767" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20180815-01 committed by PhemieTang" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180815-01 committed by PhemieTang" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap-tagsinput.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/colResizable-1.6.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/fileUpload.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/wangEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/script3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1032">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/script1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/script2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/auto-line-number.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/make-questions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.bootgrid-ksx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/make-questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="13" column="42182" selection-start-line="13" selection-start-column="42170" selection-end-line="13" selection-end-column="42182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/give-a-mark/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4860" selection-start-column="4860" selection-end-column="4860" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/uploadFile.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/stickUp.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/recorder.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/swfobject.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/screenfull.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/admin_addQuestions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="514" column="40" lean-forward="true" selection-start-line="514" selection-start-column="40" selection-end-line="514" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/myjs.js" />
+    <entry file="file://$PROJECT_DIR$/static/css/question_add.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="83" column="46" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/jquery.webcam.js" />
+    <entry file="file://$PROJECT_DIR$/exam/templates/exam/h.html" />
+    <entry file="file://$PROJECT_DIR$/static/css/give-a-mark/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="209" column="11" selection-start-line="209" selection-start-column="11" selection-end-line="209" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/give-a-mark/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="624" column="29" selection-start-line="624" selection-start-column="26" selection-end-line="624" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/templates/exam/register.html" />
+    <entry file="file://$PROJECT_DIR$/exam/templates/exam/login.html" />
+    <entry file="file://$PROJECT_DIR$/OnlineTestSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/templates/exam/hhh.html" />
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/js/npm.js" />
+    <entry file="file://$PROJECT_DIR$/static/css/home/googleapis-fonts.css" />
+    <entry file="file://$PROJECT_DIR$/static/icon/home/favicon.png" />
+    <entry file="file://$PROJECT_DIR$/static/icon/home/apple-touch-icon-57-precomposed.png" />
+    <entry file="file://$PROJECT_DIR$/static/images/home/backgrounds/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/js/home/jquery.backstretch.js" />
+    <entry file="file://$PROJECT_DIR$/static/css/home/form-elements.css" />
+    <entry file="file://$PROJECT_DIR$/exam/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/templates/exam/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/templates/exam/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="283" column="45" lean-forward="true" selection-start-line="283" selection-start-column="45" selection-end-line="283" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineTestSystem/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/templates/exam/make-questions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/home/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1093">
+          <caret line="168" column="1" lean-forward="true" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/give-a-mark/body-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="45" column="67" lean-forward="true" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="138" column="3" selection-start-line="138" selection-start-column="3" selection-end-line="138" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/exam-base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/expanding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/give-a-mark/exam_answer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/templates/exam/give-a-mark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="69" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="69" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/give-a-mark/exam_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="124" column="7" selection-start-line="124" selection-end-line="124" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

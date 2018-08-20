@@ -45,7 +45,7 @@ input[type="checkbox"], input[type="radio"]{width: 15px;height: 15px;}
 .body-content .cont-r .tab-content .add-questions-btn .btn-reset{margin-right:40px}
 /*.body-content .cont-r .tab-content .question-content .keyJudge .title {margin-bottom: 15px}*/
 .body-content .cont-r .tab-content .question-content .keyFill .keyFillContent .input-group {width: 100%}/*一整个填空（序号，答案）*/
-.body-content .cont-r .tab-content .question-content .keyFill .keyFillContent .input-group span{background:#FF0000;width:10px}/*C2CEDB*/
+.body-content .cont-r .tab-content .question-content .keyFill .keyFillContent .input-group span{background:#C2CEDB;width:10px}/**/
 .body-content .cont-r .tab-content .question-content .keyFill .keyFillContent .input-group textarea {height: 30px;resize: none;padding: 0}
 .body-content .cont-r .tab-content .question-content .keyCloze .keyWordPanel,#manualInput .combBatchPanel .combBatchBlock  {margin-top: 15px}
 .body-content .cont-r .tab-content .question-content .keyCloze .keyWordPanel input { border: 1px solid #C2CEDB;  width: 40%;  margin-top: 10px;  margin-bottom: 10px;}

@@ -1,0 +1,243 @@
+html,body{
+    min-height: 100%;
+    background: #eff3f7;
+}
+
+table td,
+table th {
+    border: 1px solid #999;
+    padding: 3px 5px;
+    min-width: 50px;
+    height: 20px;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.main{
+    padding: 90px 220px 80px;
+    position: relative;
+    overflow: auto;
+}
+
+
+/**********************************************************************/
+/*试卷主体*/
+/*.body-wrapper*/
+.body-wrapper{
+    padding-right: 140px;
+    position: relative;
+}
+.body-wrapper .paper{
+    color: #3A3E51;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+}
+/*空页面*/
+.body-wrapper .paper .content-empty{
+    margin: 80px 0;
+}
+/*大题*/
+.paper .questions{
+    border-bottom: 1px solid #DEDEDE;
+}
+.paper .questions:last-child{
+    border-bottom: none;
+}
+.paper .questions .questions-title{
+    font-size: 18px;
+    line-height: 25px;
+    padding: 18px 20px;
+    background: #2a83a2;
+    color: #FFF;
+    border-bottom: 1px solid #DEDEDE;
+}
+.paper .questions .questions-content{
+    padding-left: 30px;
+    padding-right: 75px;
+}
+
+/*小题*/
+.paper .questions .questions-content .question-content{
+    padding: 30px 0;
+    position: relative;
+}
+.paper .questions .questions-content .question-content +.question-content{
+    border-top: 1px solid #dedede;
+}
+.paper .questions .questions-content .question-content .exam-question{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+.paper .questions .questions-content .question-content .exam-question .question-index{
+    color: #1A8CFE;
+    position: absolute;
+    left: -25px;
+    top: 0;
+    display: inline-block;
+    width: 40px;
+    line-height: 22px;
+    text-align: right;
+}
+
+
+
+
+/*填空题*/
+.questions-content .filled{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.questions-content .combined{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+/*填空题的答题标号*/
+.questions-content .filled .input-group-addon{
+    padding: 4px 10px;
+}
+
+.questions-content .combined .mark-group-addon{
+    padding: 4px 10px;
+}
+
+
+/*填空题的答题区域*/
+.questions-content .filled .keyFill{
+    border-radius: 0 4px 4px 0;
+    height: 28px;
+    padding: 4px 10px;
+}
+
+.questions-content .combined .keyFillAnswer{
+    border-radius: 0 4px 4px 0;
+    height: 30px;
+    padding: 4px 10px;
+}
+
+/*问答题*/
+.question-content .filled .keyCloze{
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+    padding: 10px;
+}
+.question-content .filled .keyCloze{
+    border-radius: 0 4px 4px 0;
+    height: 200px;
+    padding: 4px 10px;
+}
+
+
+.question-content .filled .keyCloze{
+    overflow: auto;
+}
+.question-content .filled .keyCloze table td,
+.question-content .filled .keyCloze table th{
+    border: 1px solid #999;
+    padding: 3px 5px;
+    min-width: 50px;
+    height: 20px;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+
+
+/*答案解析*/
+.question-content .analysis{
+    background: #abced8;
+    border-radius: 4px;
+    /*padding: 15px 20px;*/
+    line-height: 24px;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+/*题干，选项，解析，答案等第一行统一为行内元素，并将默认为无margin*/
+.question-content .exam-question p:nth-child(2),
+.question-content .answers .words p:first-child,
+.question-content .analysis .analysis-content p:first-child{
+    display: inline-block;
+}
+.question-content .exam-question p,
+.question-content .answers .words p,
+.question-content .analysis .analysis-content p{
+    margin-bottom: 0;
+}
+
+
+
+/****************************逐题模式*****************************************/
+
+/*.questions .questions-content .exam-question,这个样式会遮挡两位数以上的题号*/
+.questions .questions-content .answers,
+.questions .questions-content .analysis{
+    overflow: auto;
+}
+
+/*题目换行处理(英文)*/
+.questions .questions-title,
+.questions .questions-content .exam-question,
+.questions .questions-content .answers .words,
+.questions .questions-content .analysis .analysis-content{
+    word-break:break-all;
+    word-wrap: break-word;
+}
+
+/**********************************************************************/
+
+.btn-submit {
+    background-color: #59b9c6 ;
+    color: #fff;
+}
+
+.btn-submit:hover, .btn-submit:focus {
+    background-color: #d7003a;
+    color: #fff;
+}
+
+.realMark {
+    float: right;
+    font-size: 15px;
+    font-family: bold;
+    line-height: 15px;
+    padding: 6px 8px;
+    margin-top: 4px;
+    background: #38b48b;
+}
+
+.analysis-totalRealMark {
+    background-color: #00a497;
+    padding: 8px 10px;
+    margin: 8px 10px;
+    float: right;
+    font-family: sans-serif;
+    font-weight:bold;
+    color: #F1F3F8;
+    border-radius:8px;
+}
+
+.analysis-title {
+    font-size: 15px;
+    font-family: bold;
+    line-height: 15px;
+    padding: 10px 12px;
+    background: #2ca9e1;
+    color: #f5f5f5;
+}
+
+.keyFillAnswer, .keyClozeAnswer{
+    color: #000;
+    background-color: #eaedf7;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+    font-size: 18px;
+}

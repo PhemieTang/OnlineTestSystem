@@ -6,4 +6,14 @@ def teacher(request):
 
 
 def edit(request):
-    return render(request,'exam/edit.html')
+    return render(request, 'exam/edit.html')
+
+
+def mark(request):
+    return render(request, 'exam/give-a-mark.html')
+
+
+def homepage(request):
+    return render(request, 'exam/home.html')
+
+
